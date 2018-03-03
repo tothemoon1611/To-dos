@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#aaaaaa"
+    >
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    >
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cong viec"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trạng thái: Chưa làm!"
+            android:textColor="#000000"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày: 3/2/2018"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ: 12:21"
+            android:layout_column="1"
+            android:textColor="#000000"
+            />
+
+    </TableRow>
+</TableLayout>
+</LinearLayout>
